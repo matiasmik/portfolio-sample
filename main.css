@@ -196,7 +196,8 @@ html {
   text-align: center; }
 
 .three {
-  text-align: center; }
+  text-align: center;
+  background-color: white; }
 
 .cards {
   display: -webkit-box;
@@ -238,5 +239,13 @@ html {
     overflow: hidden; }
     .cards .card-image img {
       width: 100%; }
+
+.five {
+  background-color: yellow;
+  text-align: center; }
+
+.button-one {
+  background-color: green;
+  color: yellow; }
 
 /*# sourceMappingURL=main.css.map */

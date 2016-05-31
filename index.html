@@ -1,74 +1,126 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <!-- <link rel="stylesheet" href="reset.css" media="screen" title="no title" charset="utf-8"> -->
-    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
-  </head>
-  <body class="font-regular">
 
-    <div class="row one">
-      <div class="col-5">
-        <h4>text</h4>
-      </div>
-      <div class="col-7">
-        <ul>
-          <li>listone</li>
-          <li>listtwo</li>
-          <li>listthree</li>
-        </ul>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- <link rel="stylesheet" href="reset.css" media="screen" title="no title" charset="utf-8"> -->
+  <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body class="font-regular">
+
+  <!-- organism row one -->
+
+  <div class="row one">
+    <div class="col-5">
+
+      <!-- atom h4 -->
+
+      <h4>text</h4>
     </div>
+    <div class="col-7">
 
-    <div class="row two">
-      <h1>welcome</h1>
-      <h4>hows it going?</h4>
+      <!-- atom li's -->
+
+      <ul>
+        <li>listone</li>
+        <li>listtwo</li>
+        <li>listthree</li>
+      </ul>
     </div>
+  </div>
+  <!-- organism row two -->
+  <div class="row two">
 
-    <div class="row three">
-      <h3>this here is content!</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
+    <!-- molecule h1 h4 together -->
+    <!-- atom h1, h4, separately -->
+    <h1>welcome</h1>
+    <h4>hows it going?</h4>
+  </div>
 
-    <div class="row four">
+  <!-- organism row three -->
 
-      <div class="cards">
-        <div class="card">
-          <div class="card-image"></div>
-          <div class="card-header">
-            <h4>First Card</h4>
-          </div>
-          <div class="card-copy">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
-          </div>
+  <div class="row three">
+    <h3>this here is content!</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- organism row four -->
+
+  <div class="row four">
+
+
+    <div class="cards">
+      <!-- molecule card 1 -->
+      <div class="card">
+        <!-- atom image -->
+        <div class="card-image"></div>
+        <!-- atom header -->
+        <div class="card-header">
+          <h4>First Card</h4>
         </div>
-
-        <div class="card">
-          <div class="card-image"></div>
-          <div class="card-header">
-            <h4>Another Card</h4>
-          </div>
-          <div class="card-copy">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
-          </div>
+        <!-- atom description -->
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
         </div>
+      </div>
 
-        <div class="card">
-          <div class="card-image"></div>
-          <div class="card-header">
-            <h4>The Last Card</h4>
-          </div>
-          <div class="card-copy">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
+      <!-- molecule card 2 -->
+      <div class="card">
+        <!-- atom image -->
+        <div class="card-image"></div>
+        <!-- atom header -->
+        <div class="card-header">
+          <h4>Another Card</h4>
+        </div>
+        <!-- atom description-->
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+        </div>
+      </div>
+
+      <!-- molecule card 3 -->
+      <div class="card">
+        <!-- atom image -->
+        <div class="card-image"></div>
+        <!-- atom header -->
+        <div class="card-header">
+          <h4>The Third Card</h4>
+        </div>
+        <!-- atom description -->
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
 
 
-    </div>
+      <!-- molecule card 4 -->
+      <div class="card">
+        <!-- atom image -->
+        <div class="card-image"></div>
+        <!-- atom header -->
+        <div class="card-header">
+          <h4>The Last Card</h4>
+        </div>
+        <!-- atom description -->
+        <div class="card-copy">
+          <p>In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div> <!-- end div cards -->
+  </div>
 
-  </body>
+  <div class="row five">
+    <div class="contact">
+      <button id="button-one" type="button" name="button">CLICKY</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+
 </html>
